@@ -1,20 +1,20 @@
  export const places = [
         {
             id: 1,
-            image: "/Corn-Island/Corn_Island_1.jpeg",
+            image: "Corn-Island/Corn_Island_1.jpeg",
             name: "Corn Island",
             departament: "Caribbean Sea",
             rating: "5.0",
             time: "1.5 hour ✈️",
             description: "Corn Island is a Caribbean gem lying about 70 km off Nicaragua´s eastern coast. The destination is famous for its white‑sand beaches, turquoise and warm waters, and vibrant coral reefs ideal for snorkeling and diving. Life on the island moves at a relaxed pace. Visitors can enjoy fresh seafood, beachside hammocks, gentle sea breezes and beautiful sunsets. The island offers a peaceful retreat compared to Nicaragua’s busier mainland tourist spots.",
             extraPhotos: [
-                "/Corn-Island/Corn_Island_1.jpeg",
-                "/Corn-Island/Corn_Island_2.jpeg",
-                "/Corn-Island/Corn_Island_3.jpeg",
-                "/Corn-Island/Corn_Island_4.jpeg",
-                "/Corn-Island/Corn_Island_5.jpeg",
-                "/Corn-Island/Corn_Island_6.jpeg",
-                "/Corn-Island/Corn_Island_7.jpeg",
+                "Corn-Island/Corn_Island_1.jpeg",
+                "Corn-Island/Corn_Island_2.jpeg",
+                "Corn-Island/Corn_Island_5.jpeg",
+                "Corn-Island/Corn_Island_4.jpeg",
+                "Corn-Island/Corn_Island_6.jpeg",
+                "Corn-Island/Corn_Island_3.jpeg",
+                "Corn-Island/Corn_Island_7.jpeg",
             ],
             activities: [
             "Snorkeling and diving along coral reefs and underwater gardens",
@@ -38,20 +38,20 @@
 
         {
             id: 2,
-            image: "/Ometepe/ometepe_1.jpg",
+            image: "Ometepe/ometepe_1.jpg",
             name: "Ometepe Island",
             departament: "Rivas",
             rating: "4.5",
             time: "3h 28min (130 km) 🚘 + 🚢",
             description: "Ometepe Island rises from Lake Nicaragua, formed by two volcanoes: Concepción and Maderas. It covers about 276 km², combining volcanic landscapes, forested areas and rural villages. Ometepe offers a unique blend of nature, adventure and tranquility. Visitors can hike volcanoes, swim in natural springs, kayak on the lake, explore petroglyphs, and enjoy a calm island lifestyle away from crowds.",
             extraPhotos: [
-                "/Ometepe/ometepe_1.jpg",
-                "/Ometepe/ometepe_2.jpg",
-                "/Ometepe/ometepe_3.jpg",
-                "/Ometepe/ometepe_4.jpg",
-                "/Ometepe/ometepe_5.jpg",
-                "/Ometepe/ometepe_6.jpg",
-                "/Ometepe/ometepe_7.jpg",
+                "Ometepe/ometepe_1.jpg",
+                "Ometepe/ometepe_2.jpg",
+                "Ometepe/ometepe_3.jpg",
+                "Ometepe/ometepe_4.jpg",
+                "Ometepe/ometepe_5.jpg",
+                "Ometepe/ometepe_6.jpg",
+                "Ometepe/ometepe_7.jpg",
             ],
             activities: [
             "Hiking Volcano Concepción or Volcano Maderas for panoramic views",
@@ -75,20 +75,20 @@
 
         {
             id: 3,
-            image: "/Volcan_Masaya/volcan_masaya_1.jpg",
+            image: "Volcan_Masaya/volcan_masaya_1.jpg",
             name: "Volcán Masaya",
             departament: "Masaya",
             rating: "4.0",
             time: "36min (22.9 km) 🚘",
             description: "Volcán Masaya is one of Nicaragua’s most accessible active volcanoes, located within a national park about 20–30 minutes from Managua. From the crater’s rim visitors can see glowing lava and gas emissions, a dramatic and memorable sight. The park also offers walking paths, viewpoints and nighttime visits to witness the crater’s fiery glow. It combines ease of access with raw natural power, appealing both to casual tourists and adventure seekers.",
             extraPhotos: [
-                "/Volcan_Masaya/volcan_masaya_1.jpg",
-                "/Volcan_Masaya/volcan_masaya_2.jpg",
-                "/Volcan_Masaya/volcan_masaya_3.jpg",
-                "/Volcan_Masaya/volcan_masaya_4.jpg",
-                "/Volcan_Masaya/volcan_masaya_5.jpg",
-                "/Volcan_Masaya/volcan_masaya_6.jpg",
-                "/Volcan_Masaya/volcan_masaya_7.jpg",
+                "Volcan_Masaya/volcan_masaya_1.jpg",
+                "Volcan_Masaya/volcan_masaya_2.jpg",
+                "Volcan_Masaya/volcan_masaya_3.jpg",
+                "Volcan_Masaya/volcan_masaya_4.jpg",
+                "Volcan_Masaya/volcan_masaya_5.jpg",
+                "Volcan_Masaya/volcan_masaya_6.jpg",
+                "Volcan_Masaya/volcan_masaya_7.jpg",
             ],
             activities: [
             "Visit the crater and observe lava glow (especially at night)",
@@ -110,20 +110,20 @@
 
         {
             id: 4,
-            image: "/Granada/granada_1.jpg",
+            image: "Granada/granada_1.jpg",
             name: "Granada City",
             departament: "Granada",
             rating: "5.0",
             time: "56min (42.6 km) 🚘",
             description: "Granada is one of Nicaragua’s oldest colonial cities, rich in history, colorful architecture and vibrant culture. With its distinctive colonial style buildings, cobblestone streets and close proximity to natural attractions, Granada serves as a perfect base for exploring volcanoes, lakes and nearby islets. The city mixes heritage, nightlife, local cuisine and access to nature, making it a versatile stop for many travellers.",
             extraPhotos: [
-                "/Granada/granada_1.jpg",
-                "/Granada/granada_2.jpg",
-                "/Granada/granada_3.jpg",
-                "/Granada/granada_4.jpg",
-                "/Granada/granada_5.jpg",
-                "/Granada/granada_6.jpg",
-                "/Granada/granada_7.jpg",
+                "Granada/granada_1.jpg",
+                "Granada/granada_3.jpg",
+                "Granada/granada_2.jpg",
+                "Granada/granada_4.jpg",
+                "Granada/granada_5.jpg",
+                "Granada/granada_6.jpg",
+                "Granada/granada_7.jpg",
             ],
             activities: [
             "Wandering colonial streets and visiting historic churches",
@@ -144,20 +144,20 @@
 
         {
             id: 5,
-            image: "/San_Juan_del_Sur/san_juan_del_sur_1.jpg",
+            image: "San_Juan_del_Sur/san_juan_del_sur_1.jpg",
             name: "San Juan del Sur",
             departament: "Rivas",
             rating: "5.0",
             time: "2h 35min (129 km) 🚘",
             description: "San Juan del Sur is a coastal town on Nicaragua’s Pacific coast, known for its beaches, surfing waves and relaxed beach and town vibe. It draws travellers looking for sun, surf and easy access to coastal attractions. With its combination of ocean, beach culture and laid back lifestyle, San Juan del Sur offers a classic Pacific beach experience in Nicaragua.",
             extraPhotos: [
-                "/San_Juan_del_Sur/san_juan_del_sur_1.jpg",
-                "/San_Juan_del_Sur/san_juan_del_sur_2.jpg",
-                "/San_Juan_del_Sur/san_juan_del_sur_3.jpg",
-                "/San_Juan_del_Sur/san_juan_del_sur_4.jpg",
-                "/San_Juan_del_Sur/san_juan_del_sur_5.jpg",
-                "/San_Juan_del_Sur/san_juan_del_sur_6.jpg",
-                "/San_Juan_del_Sur/san_juan_del_sur_7.jpg",
+                "San_Juan_del_Sur/san_juan_del_sur_2.jpg",
+                "San_Juan_del_Sur/san_juan_del_sur_1.jpg",
+                "San_Juan_del_Sur/san_juan_del_sur_3.jpg",
+                "San_Juan_del_Sur/san_juan_del_sur_4.jpg",
+                "San_Juan_del_Sur/san_juan_del_sur_5.jpg",
+                "San_Juan_del_Sur/san_juan_del_sur_6.jpg",
+                "San_Juan_del_Sur/san_juan_del_sur_7.jpg",
             ],
             activities: [
             "Surfing or learning to surf on Pacific beaches",
@@ -178,7 +178,7 @@
 
         {
             id: 6,
-            image: "/cerro-negro.jpg",
+            image: "cerro-negro.jpg",
             name: "Volcan Cerro Negro",
             departament: "León",
             rating: "5.0",
@@ -205,7 +205,7 @@
 
         {
             id: 7,
-            image: "/laguna-de-perlas.jpg",
+            image: "laguna-de-perlas.jpg",
             name: "Laguna de Perlas",
             departament: "Caribbean Sea",
             rating: "5.0",
@@ -231,7 +231,7 @@
 
         {
             id: 8,
-            image: "/la-boquita.jpg",
+            image: "la-boquita.jpg",
             name: "La Boquita",
             departament: "Carazo",
             rating: "4.0",
@@ -257,7 +257,7 @@
 
         {
             id: 9,
-            image: "/volcan-mombacho.jpg",
+            image: "volcan-mombacho.jpg",
             name: "Volcán Mombacho",
             departament: "Granada",
             rating: "4.5",
@@ -284,7 +284,7 @@
 
         {
             id: 10,
-            image: "/canion-somoto.jpg",
+            image: "canion-somoto.jpg",
             name: "Cañón de Somoto",
             departament: "Madriz",
             rating: "4.5",
@@ -310,7 +310,7 @@
         },
         {
             id: 11,
-            image: "/laguna-apoyo.jpg",
+            image: "laguna-apoyo.jpg",
             name: "Laguna de Apoyo",
             departament: "Masaya",
             rating: "4.0",
@@ -337,7 +337,7 @@
         },
         {
             id: 12,
-            image: "/el-chocoyero.jpg",
+            image: "el-chocoyero.jpg",
             name: "El Chocoyero",
             departament: "Managua",
             rating: "4.0",
@@ -363,7 +363,7 @@
         },
         {
             id: 13,
-            image: "/leon.jpg",
+            image: "leon.jpg",
             name: "Ciudad León",
             departament: "León",
             rating: "4.5",
@@ -390,7 +390,7 @@
         },
         {
             id: 14,
-            image: "/momotombo.jpg",
+            image: "momotombo.jpg",
             name: "Volcán Momotombo",
             departament: "León",
             rating: "4.0",
@@ -416,7 +416,7 @@
         },
         {
             id: 15,
-            image: "/las-penitas.jpg",
+            image: "las-penitas.jpg",
             name: "Las Peñitas",
             departament: "León",
             rating: "4.0",
@@ -468,7 +468,7 @@
         },
         {
             id: 17,
-            image: "/mirador-catarina.jpg",
+            image: "mirador-catarina.jpg",
             name: "Mirador de Catarina",
             departament: "Masaya",
             rating: "4.0",
@@ -494,7 +494,7 @@
         },
         {
             id: 18,
-            image: "/selva-negra.jpg",
+            image: "selva-negra.jpg",
             name: "Selva Negra",
             departament: "Matagalpa",
             rating: "4.5",
@@ -520,7 +520,7 @@
         },
         {
             id: 19,
-            image: "/esteli.jpg",
+            image: "esteli.jpg",
             name: "Estelí ciudad",
             departament: "Estelí",
             rating: "4.0",
@@ -546,7 +546,7 @@
         },
         {
             id: 20,
-            image: "/la-makina.jpg",
+            image: "la-makina.jpg",
             name: "Reserva La Máquina",
             departament: "Carazo",
             rating: "3.5",
@@ -572,7 +572,7 @@
         },
         {
             id: 21,
-            image: "/pochomil.jpg",
+            image: "pochomil.jpg",
             name: "Playa Pochomil",
             departament: "Managua",
             rating: "4.0",
@@ -598,7 +598,7 @@
         },
         {
             id: 22,
-            image: "/montelimar.jpg",
+            image: "montelimar.jpg",
             name: "Playa Montelimar",
             departament: "Managua",
             rating: "4.0",
@@ -624,7 +624,7 @@
         },
         {
             id: 23,
-            image: "/jiquilillo.jpg",
+            image: "jiquilillo.jpg",
             name: "Playa Jiquilillo",
             departament: "Chinandega",
             rating: "4.0",
@@ -650,7 +650,7 @@
         },
         {
             id: 24,
-            image: "/puerto-sandino.jpg",
+            image: "puerto-sandino.jpg",
             name: "Puerto Sandino",
             departament: "León",
             rating: "4.0",
@@ -676,7 +676,7 @@
         },
         {
             id: 25,
-            image: "/playa-miramar.jpg",
+            image: "playa-miramar.jpg",
             name: "Miramar playa",
             departament: "León",
             rating: "3.5",
@@ -702,7 +702,7 @@
         },
         {
             id: 26,
-            image: "/indio-maiz.jpg",
+            image: "indio-maiz.jpg",
             name: "Reserva Indio Maíz",
             departament: "Río San Juan",
             rating: "4.5",
@@ -727,7 +727,7 @@
         },
         {
             id: 27,
-            image: "/salto-estanzuela.jpg",
+            image: "salto-estanzuela.jpg",
             name: "Salto Estanzuela",
             departament: "Estelí",
             rating: "4.0",
@@ -752,7 +752,7 @@
         },
         {
             id: 28,
-            image: "/cerro-apante.jpg",
+            image: "cerro-apante.jpg",
             name: "Cerro Apante",
             departament: "Matagalpa",
             rating: "4.0",
@@ -777,7 +777,7 @@
         },
         {
             id: 29,
-            image: "/playa-el-velero.jpg",
+            image: "playa-el-velero.jpg",
             name: "Playa El Velero",
             departament: "León",
             rating: "3.5",
@@ -802,7 +802,7 @@
         },
         {
             id: 30,
-            image: "/la-flor.jpg",
+            image: "la-flor.jpg",
             name: "Playa La Flor",
             departament: "Rivas",
             rating: "4.0",
@@ -827,7 +827,7 @@
         },
         {
             id: 31,
-            image: "/huehuete.jpg",
+            image: "huehuete.jpg",
             name: "Playa Huehuete",
             departament: "Carazo",
             rating: "3.5",
@@ -877,7 +877,7 @@
         },
         {
             id: 33,
-            image: "/el-castillo.jpg",
+            image: "el-castillo.jpg",
             name: "El Castillo (fort)",
             departament: "Río San Juan",
             rating: "4.5",
@@ -902,7 +902,7 @@
         },
         {
             id: 34,
-            image: "/bluefields.jpg",
+            image: "bluefields.jpg",
             name: "Bluefields",
             departament: "RACCS",
             rating: "4.0",
@@ -927,7 +927,7 @@
         },
         {
             id: 35,
-            image: "/bosawas.jpg",
+            image: "bosawas.jpg",
             name: "Bosawás Reserva",
             departament: "Norte / BOSAWÁS",
             rating: "4.5",
@@ -952,7 +952,7 @@
         },
         {
             id: 36,
-            image: "/kukra-hill.jpg",
+            image: "kukra-hill.jpg",
             name: "Kukra Hill",
             departament: "RACCS",
             rating: "4.0",

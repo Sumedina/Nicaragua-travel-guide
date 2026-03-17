@@ -1,9 +1,12 @@
 export default function PlaceCard({ image, name, departament, rating, time, onClick }) {
+
+    const imageUrl = image ? `${import.meta.env.BASE_URL}${image}` : "";
+
     return (
         <div className="place-card" onClick={onClick}>
-            { image ? (
+            { imageUrl ? (
                 <div className="image-wrapper">
-                    <img src={image} alt={name} />
+                    <img src={imageUrl} alt={name} />
                 </div>
             ) : (
                 <div className="image-wrapper empty"></div>
