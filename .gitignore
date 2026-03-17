@@ -1,3 +1,13 @@
+# Node
+node_modules/
+
+# Vite build
+dist/
+dist-ssr/
+
+# gh-pages deployment
+.gh-pages/
+
 # Logs
 logs
 *.log
@@ -7,15 +17,9 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist/
-dist-ssr
-*.local
-
 # Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+.vscode/
+.idea/
 .DS_Store
 *.suo
 *.ntvs*
