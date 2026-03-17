@@ -1,0 +1,145 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+#root {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.page-container {
+    padding-top: 80px;
+    min-height: 100vh;
+}
+
+.grid {
+    display: grid;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    justify-items: center;
+}
+
+
+.place-card {
+    width: 100%;
+    height: 260px;
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.place-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+}
+
+.image-wrapper {
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    background: #f0f0f0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-wrapper.empty {
+    background: #e0e0e0;
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info {
+    padding: 14px 16px;
+}
+
+.info h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.departament {
+    color: #666;
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.meta {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #444;
+}
+
+#navbar {
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: top 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 0;
+  z-index: 999;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.intro {
+    text-align: center;
+    max-width: 900px;
+    margin: 50px auto 30px auto;
+    padding: 0 24px;
+}
+
+.intro h1 {
+    font-size: 34px;
+    color: #ddd;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 18px;
+    color: #ddd;
+    line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+    .grid {
+        padding: 10px;
+    }
+}

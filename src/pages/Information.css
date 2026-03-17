@@ -1,0 +1,45 @@
+.info-container {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.info-card {
+    max-width: 800px;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
+    line-height: 1.7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.info-title {
+    font-size: 2.4rem;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+    font-weight: 700;
+}
+
+.info-subtitle {
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-bottom: 12px;
+    color: #444;
+    font-weight: 600;
+}
+
+.info-text {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 16px;
+}
+
+.info-end {
+    margin-top: 35px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+}
