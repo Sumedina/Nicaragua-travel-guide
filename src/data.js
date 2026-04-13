@@ -442,7 +442,7 @@
         },
         {
             id: 16,
-            image: "/poneloya.jpg",
+            image: "poneloya.jpg",
             name: "Poneloya",
             departament: "León",
             rating: "4.0",
@@ -852,7 +852,7 @@
         },
         {
             id: 32,
-            image: "/laguna-de-tiscapa.jpg",
+            image: "laguna-de-tiscapa.jpg",
             name: "Laguna de Tiscapa",
             departament: "Managua",
             rating: "3.5",
