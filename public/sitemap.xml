@@ -2,10 +2,12 @@
   <url>
     <loc>https://visitnicaraguaguide.com/</loc>
   </url>
+
   <url>
-    <loc>https://visitnicaraguaguide.com/#/guide</loc>
+    <loc>https://visitnicaraguaguide.com/guide</loc>
   </url>
+
   <url>
-    <loc>https://visitnicaraguaguide.com/#/information</loc>
+    <loc>https://visitnicaraguaguide.com/information</loc>
   </url>
 </urlset>
