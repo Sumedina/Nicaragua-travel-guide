@@ -3,22 +3,103 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>🇳🇮 Nicaragua</title>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9Z22XXSDZK"></script>
+    <title>🇳🇮 Nicaragua Travel Guide</title>
+
+    <!-- Consent Mode -->
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
 
-      gtag('config', 'G-9Z22XXSDZK');
+      // Default: NO tracking until consent
+      gtag('consent', 'default', {
+        ad_storage: 'denied',
+        analytics_storage: 'denied'
+      });
     </script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4262144641360122"
-     crossorigin="anonymous"></script>
 
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9Z22XXSDZK"></script>
+    <script>
+      gtag('js', new Date());
+      gtag('config', 'G-9Z22XXSDZK', {
+        anonymize_ip: true
+      });
+    </script>
+
+    <!-- AdSense -->
+    <script async 
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4262144641360122"
+      crossorigin="anonymous">
+    </script>
+
+    <style>
+      #cookie-banner {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: #222;
+        color: white;
+        padding: 15px;
+        text-align: center;
+        z-index: 1000;
+      }
+      button {
+        margin: 5px;
+        padding: 8px 12px;
+        border: none;
+        cursor: pointer;
+      }
+      .accept { background: green; color: white; }
+      .reject { background: red; color: white; }
+    </style>
   </head>
+
   <body>
     <div id="root"></div>
+
+    <!-- Cookie Banner -->
+    <div id="cookie-banner">
+      This website uses cookies for analytics and advertising.
+      <br />
+      <button class="accept" onclick="acceptCookies()">Accept</button>
+      <button class="reject" onclick="rejectCookies()">Reject</button>
+    </div>
+
+    <script>
+      function acceptCookies() {
+        gtag('consent', 'update', {
+          ad_storage: 'granted',
+          analytics_storage: 'granted'
+        });
+
+        localStorage.setItem("cookieConsent", "accepted");
+        document.getElementById("cookie-banner").style.display = "none";
+      }
+
+      function rejectCookies() {
+        gtag('consent', 'update', {
+          ad_storage: 'denied',
+          analytics_storage: 'denied'
+        });
+
+        localStorage.setItem("cookieConsent", "rejected");
+        document.getElementById("cookie-banner").style.display = "none";
+      }
+
+      // Check previous choice
+      const consent = localStorage.getItem("cookieConsent");
+      if (consent === "accepted") {
+        gtag('consent', 'update', {
+          ad_storage: 'granted',
+          analytics_storage: 'granted'
+        });
+        document.getElementById("cookie-banner").style.display = "none";
+      } else if (consent === "rejected") {
+        document.getElementById("cookie-banner").style.display = "none";
+      }
+    </script>
+
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
