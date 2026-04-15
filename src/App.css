@@ -138,6 +138,80 @@ body, html {
     line-height: 1.6;
 }
 
+/* BLOG LIST */
+.blog-container {
+  padding: 100px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.blog-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.blog-card {
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+  text-decoration: none;
+  color: black;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.blog-card h2 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.blog-card p {
+  color: #0077cc;
+  font-weight: bold;
+}
+
+/* BLOG POST */
+.blogpost-container {
+  padding: 100px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.blogpost-content {
+  max-width: 800px;
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.blogpost-content h1 {
+  margin-bottom: 20px;
+}
+
+.blogpost-content p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+  font-size: 1.05rem;
+}
+
+.not-found {
+  padding: 100px;
+  text-align: center;
+}
+
 @media (max-width: 600px) {
     .grid {
         padding: 10px;

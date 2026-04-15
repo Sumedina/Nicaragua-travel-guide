@@ -14,7 +14,7 @@ export default function Navbar() {
 
             if (prevScrollpos > currentScrollPos) {
                 navbar.style.top = "0";
-            } else  if (currentScrollPos > (prevScrollpos + HIDE_THRESHOLD)) {
+            } else if (currentScrollPos > (prevScrollpos + HIDE_THRESHOLD)) {
                 navbar.style.top = "-50px";
             }
 
@@ -22,13 +22,18 @@ export default function Navbar() {
         };
 
         window.addEventListener("scroll", handleScroll);
+
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
     }, []);
 
     return (
         <div id="navbar">
             <Link to="/">Home</Link>
             <Link to="/guide">Guide</Link>
-            <Link to="information">Information</Link>
+            <Link to="/blog">Blog</Link>
+            <Link to="/information">Information</Link>
         </div>
     );
 }
