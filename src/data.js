@@ -1180,4 +1180,35 @@
                 "Hire local guides for river and coastal activities"
             ]
         },
+        {
+            id: 37,
+            image: "Cerro_mogoton/cerro_mogoton_1.jpg",
+            name: "Cerro Mogotón",
+            departament: "Nueva Segovia",
+            rating: "4.7",
+            time: "5h 30min (≈255 km) 🚘",
+            description: "Cerro Mogotón is the highest mountain in Nicaragua, rising near the border with Honduras in Nueva Segovia. Surrounded by cloud forest, pine landscapes, and cool mountain weather, it is a top destination for adventurous hikers seeking panoramic views, biodiversity, and one of the country’s most rewarding trekking experiences.",
+            extraPhotos: [
+                import.meta.env.BASE_URL + "Cerro_mogoton/cerro_mogoton_2.jpg",
+                import.meta.env.BASE_URL + "Cerro_mogoton/cerro_mogoton_3.jpg",
+                import.meta.env.BASE_URL + "Cerro_mogoton/cerro_mogoton_4.jpg",
+                import.meta.env.BASE_URL + "Cerro_mogoton/cerro_mogoton_5.jpg",
+                import.meta.env.BASE_URL + "Cerro_mogoton/cerro_mogoton_1.jpg",
+            ],
+            activities: [
+                "Hiking to Nicaragua’s highest peak",
+                "Birdwatching and wildlife observation",
+                "Photography of mountain landscapes",
+                "Exploring cloud forest trails"
+            ],
+            restaurantsAround: [
+                { name: "Ocotal Mountain Grill", rating: "4.3" }
+            ],
+            tips: [
+                "Start early for the hike and changing weather conditions",
+                "Wear hiking boots and bring warm layers",
+                "Hire a local guide for safer navigation",
+                "Carry enough water and snacks for the trek"
+            ]
+        },
     ];
