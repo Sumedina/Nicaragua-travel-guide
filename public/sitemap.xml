@@ -1,13 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- MAIN PAGES -->
   <url>
-    <loc>https://visitnicaraguaguide.com/</loc>
+    <loc>https://www.visitnicaraguaguide.com/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://visitnicaraguaguide.com/guide</loc>
+    <loc>https://www.visitnicaraguaguide.com/guide</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://visitnicaraguaguide.com/information</loc>
+    <loc>https://www.visitnicaraguaguide.com/information</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
+
+  <url>
+    <loc>https://www.visitnicaraguaguide.com/blog</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- BLOG POSTS -->
+  <url>
+    <loc>https://www.visitnicaraguaguide.com/blog/1</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.visitnicaraguaguide.com/blog/2</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.visitnicaraguaguide.com/blog/3</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.visitnicaraguaguide.com/blog/4</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- PLACES -->
+  <url><loc>https://www.visitnicaraguaguide.com/place/1</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.visitnicaraguaguide.com/place/2</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.visitnicaraguaguide.com/place/3</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.visitnicaraguaguide.com/place/4</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.visitnicaraguaguide.com/place/5</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.visitnicaraguaguide.com/place/6</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.visitnicaraguaguide.com/place/7</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.visitnicaraguaguide.com/place/8</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.visitnicaraguaguide.com/place/9</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.visitnicaraguaguide.com/place/10</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <url><loc>https://www.visitnicaraguaguide.com/place/11</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.visitnicaraguaguide.com/place/12</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.visitnicaraguaguide.com/place/13</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.visitnicaraguaguide.com/place/14</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.visitnicaraguaguide.com/place/15</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.visitnicaraguaguide.com/place/16</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.visitnicaraguaguide.com/place/17</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.visitnicaraguaguide.com/place/18</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.visitnicaraguaguide.com/place/19</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.visitnicaraguaguide.com/place/20</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <url><loc>https://www.visitnicaraguaguide.com/place/21</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.visitnicaraguaguide.com/place/22</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.visitnicaraguaguide.com/place/23</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.visitnicaraguaguide.com/place/24</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.visitnicaraguaguide.com/place/25</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.visitnicaraguaguide.com/place/26</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.visitnicaraguaguide.com/place/27</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.visitnicaraguaguide.com/place/28</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.visitnicaraguaguide.com/place/29</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.visitnicaraguaguide.com/place/30</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <url><loc>https://www.visitnicaraguaguide.com/place/31</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.visitnicaraguaguide.com/place/32</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.visitnicaraguaguide.com/place/33</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.visitnicaraguaguide.com/place/34</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.visitnicaraguaguide.com/place/35</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.visitnicaraguaguide.com/place/36</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
 </urlset>
