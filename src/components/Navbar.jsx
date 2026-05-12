@@ -33,7 +33,7 @@ export default function Navbar() {
             <Link to="/">Home</Link>
             <Link to="/guide">Guide</Link>
             <Link to="/blog">Blog</Link>
-            <Link to="/information">Information</Link>
+            <Link to="/information">About</Link>
         </div>
     );
 }

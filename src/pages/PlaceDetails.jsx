@@ -15,11 +15,6 @@ export default function PlaceDetails() {
       {/* Title */}
       <h1 style={styles.title}>{place.name}</h1>
 
-      {/* Description */}
-      {place.description && (
-        <p style={styles.description}>{place.description}</p>
-      )}
-
       {/* Photos */}
       {place.extraPhotos && place.extraPhotos.length > 0 && (
         <div style={{ marginBottom: "30px" }}>
@@ -27,47 +22,13 @@ export default function PlaceDetails() {
 
           <CarouselWrapper
             photos={place.extraPhotos}
-            title={place.name}
           />
         </div>
       )}
 
-      {/* Activities */}
-      {place.activities && place.activities.length > 0 && (
-        <div style={styles.section}>
-          <h2 style={styles.sectionTitle}>Activities</h2>
-          <ul style={styles.list}>
-            {place.activities.map((act, idx) => (
-              <li key={idx} style={styles.listItem}>{act}</li>
-            ))}
-          </ul>
-        </div>
-      )}
-
-      {/* Nearby Restaurants */}
-      {place.restaurantsAround && place.restaurantsAround.length > 0 && (
-        <div style={styles.section}>
-          <h2 style={styles.sectionTitle}>Restaurants Around</h2>
-          <ul style={styles.list}>
-            {place.restaurantsAround.map((res, idx) => (
-              <li key={idx} style={styles.listItem}>
-                {res.name} {res.rating && `⭐ ${res.rating}`}
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
-
-      {/* Tips */}
-      {place.tips && place.tips.length > 0 && (
-        <div style={styles.section}>
-          <h2 style={styles.sectionTitle}>Tips</h2>
-          <ul style={styles.list}>
-            {place.tips.map((tip, idx) => (
-              <li key={idx} style={styles.listItem}>{tip}</li>
-            ))}
-          </ul>
-        </div>
+      {/* Description */}
+      {place.description && (
+        <p style={styles.description}>{place.description}</p>
       )}
     </div>
   );
@@ -95,6 +56,7 @@ const styles = {
     marginBottom: "30px",
     textAlign: "justify",
     color: "#eee",
+    whiteSpace: "pre-line",
   },
   mainImageWrapper: {
     display: "flex",
