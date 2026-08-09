@@ -51,7 +51,6 @@
                 - Electricity and internet can be inconsistent in some areas
 
                 This creates a rare travel experience: disconnection from modern noise and immersion into island life.
-
                 
                 🟡 EXPERIENCES THAT ARE ACTUALLY WORTH IT IN CORN ISLAND
 
@@ -160,18 +159,16 @@
 
                 The island is approximately 276 km² and feels like a self-contained world separated from the mainland.
 
-            
-
                 🟡 HOW TO GET THERE TO OMETEPE ISLAND
 
                 Ometepe is not directly accessible by road and requires a ferry crossing.
 
-                🚗 STEP 1 — Travel to Rivas / San Jorge
+                🚗 OPTION 1 — Travel to Rivas / San Jorge
                 - From Managua: 2 – 2.5 hours by bus or car
                 - Cost: $5 – $15 USD by bus and $70+ USD private transfer
 
 
-                ⛴ STEP 2 — Ferry to Ometepe Island
+                ⛴ OPTION 2 — Ferry to Ometepe Island
 
                 Main ferry terminal: San Jorge, Rivas
 
@@ -183,7 +180,6 @@
 
                 ⚠️ Important:
                 Ferries can be delayed due to wind conditions on Lake Nicaragua. Morning departures are more reliable.
-
 
                 🟡 WHAT MAKES OMETEPE UNIQUE?
 
@@ -300,7 +296,7 @@
 
                 🟡 HOW TO GET THERE TO THE MASAYA VOLCANO
 
-                🚗 From Managua:
+                🚗 OPTION 1 - From Managua:
                 - Distance: ~25 km
                 - Travel time: 30–45 minutes by car
                 - Transport options:
@@ -308,7 +304,7 @@
                 - Taxi/Uber: $20–40 USD one way
                 - Organized tour: $35–80 USD (includes guide + transport)
 
-                🚌 Public transport:
+                🚌 OPTION 2 -Public transport:
                 - Managua → Masaya town bus (~$1 USD)
                 - Then taxi to park entrance (~$5–10 USD)
 
@@ -421,7 +417,7 @@
 
                 🟡 HOW TO GET TO GRANADA CITY
 
-                🚗 From Managua:
+                🚗 OPTION 1 - From Managua:
                 - Distance: ~45 km
                 - Travel time: 50–70 minutes
 
@@ -430,11 +426,10 @@
                 - Shuttle/tour transfer: $10–25 USD
                 - Taxi/private car: $30–60 USD
 
-                🚌 Bus route:
+                🚌 OPTION 2 - Bus route:
                 Managua UCA terminal → Granada central station
 
-                ⚠️ Note:
-                Buses are frequent but can be crowded and slower due to multiple stops.
+                ⚠️ Important: Buses are frequent but can be crowded and slower due to multiple stops.
 
 
                 🟡 WHAT MAKES GRANADA SPECIAL
