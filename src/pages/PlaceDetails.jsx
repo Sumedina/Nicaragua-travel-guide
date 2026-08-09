@@ -2,14 +2,7 @@ import { useParams, Link } from "react-router-dom";
 import { places } from "../data";
 import CarouselWrapper from "../components/CarouselWrapper";
 
-/* ────────────────────────────────────────────────────────────────────────
-   DESIGN TOKENS
-   Palette pulled from the country itself: deep Caribbean-night navy as the
-   base, a turquoise lifted straight from the reef water, and a coral/sunset
-   accent for prices & warmth. Fraunces (a warm editorial serif) carries the
-   headings like a travel magazine; Inter stays for body copy; a monospace
-   face gives the "Getting there" tickets a boarding-pass feel.
-   ──────────────────────────────────────────────────────────────────────── */
+
 const colors = {
   bg: "#0c1417",
   bgSoft: "#101a1e",
@@ -29,16 +22,6 @@ const colors = {
   textFaint: "#5f7378",
 };
 
-/* ────────────────────────────────────────────────────────────────────────
-   CONTENT PARSER
-   Existing place descriptions are one long string, hand-written with
-   emoji section markers (🟡 section, ✈️/⛴ transport options, 🌊/🐟/🌅/🍲
-   numbered experiences, ❌ mistakes, ⚠️ notes, 💰 costs). Rather than
-   dumping that as one wall of text, this parser breaks it into real
-   sections so each part gets the layout it deserves. It degrades
-   gracefully: any place whose text doesn't follow the pattern still
-   renders fine as plain paragraphs.
-   ──────────────────────────────────────────────────────────────────────── */
 function normalize(s = "") {
   return s
     .replace(/^\s*---\s*$/gm, " ") // strip standalone '---' divider lines used in the data
@@ -46,9 +29,6 @@ function normalize(s = "") {
     .trim();
 }
 
-// Some descriptions come through with line breaks flattened into runs of
-// spaces (copy/paste from a rendered page). Treat 2+ spaces as a line break
-// so section/option boundaries can be found; real "\n" already survives.
 function toLines(raw) {
   return raw.replace(/ {2,}/g, "\n");
 }
@@ -72,10 +52,6 @@ function classifySection(title) {
   return "generic";
 }
 
-// Cost lines are sometimes a single line ("💰 Cost: $25-60 USD") and
-// sometimes a label followed by several "- ..." bullets on their own lines
-// ("💰 Estimated costs:\n- Public bus: $3-8 USD\n- Private: $40-90 USD").
-// This grabs either shape and folds it into one readable string.
 function extractCost(chunk) {
   const m = chunk.match(/💰([^\n]*)((?:\n\s*-[^\n]*)*)/);
   if (!m) return { costText: null, stripped: chunk };
